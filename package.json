@@ -1,0 +1,25 @@
+{
+  "name": "apier-permissioner",
+  "version": "1.0.0",
+  "description": "Defines if the user that makes the request can access the service",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "apier",
+    "permissioner",
+    "api",
+    "services"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/Knorcedger/apier-permissioner",
+  "author": "Knorcedger",
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-google": "^0.4.0"
+  },
+  "dependencies": {
+    "reqlog": "^1.1.3"
+  }
+}
